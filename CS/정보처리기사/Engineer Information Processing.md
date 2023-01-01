@@ -142,7 +142,7 @@ TOC
   - 코드 뿐만 아니라 요구사항과 설계 결과도 테스트 할 수 있어야 함
   - 폭포수 모형보다 반복과 재처리 과정 명확
   - 테스트 작업을 단계별로 구분하므로 책임이 명확
-  - ![image-20230101221315131](Engineer Information Processing.assets/image-20230101221315131.png)
+  - ![image-20230101221315131](https://user-images.githubusercontent.com/107028310/210172786-6de657de-1280-4f69-a338-33c3ca0054bb.png)
 
 
 
@@ -174,7 +174,7 @@ TOC
 
 - XP Process
 
-  - ![image-20230101222311746](Engineer Information Processing.assets/image-20230101222311746.png)
+  - ![image-20230101222311746](https://user-images.githubusercontent.com/107028310/210172801-260eb8b9-9e68-45d4-bdfa-35d04ad9db98.png)
   - User Story : 일종의 요구사항으로 UML의 유즈케이스와 같은 목적으로 생성되나 형식이 없고 고객에 의해 작성
   - Release Planning : 몇 개의 스토리가 적용되어 부분적으로 기능이 완료된 제품을 제공, 부분/전체 개발 완료 시점에 대한 일정 수립
   - Iteration : 하나의 릴리즈를 세분화 한 단위, 1~3주 단위로 진행, Iteration(반복) 진행 중 새 스토리가 추가될 때 진행 중 반복이나 다음 반복에 추가 가능
