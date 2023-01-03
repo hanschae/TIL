@@ -1,6 +1,6 @@
 # 정보처리기사 [필기]
 
-[TOC]
+[toc]
 
 -----
 
@@ -450,7 +450,7 @@
 - SWEBOK[^5]에 따른 요구사항 개발 프로세스
   - 도출(Elicitation) > 분석(Analysis) > 명세(Specification) > 확인(Validation)
 
-[^5]: SWEBOKS(Sofrware Engineering Body of Knowledge, 소프트웨어 공학 지식 체계) : 국제 표준화 기구의 정보 기술 분야인 ISO/IEC 에서 의견을 모아 집필 발간하는 표준화 체계문서
+[^5]: SWEBOK(Software Engineering Body of Knowledge, 소프트웨어 공학 지식 체계) : 국제 표준화 기구의 정보 기술 분야인 ISO/IEC 에서 의견을 모아 집필 발간하는 표준화 체계문서
 
 - 요구사항 도출(Requirement Elicitation)
 
