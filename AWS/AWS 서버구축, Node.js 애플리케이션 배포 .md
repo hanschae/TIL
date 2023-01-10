@@ -70,6 +70,8 @@ nvm use 16
 
 
 
+- index.js 만들기
+
 mkdir app → cd app → npm i -S express 
 
 npm 명령어를 통해 express 패키지 설치 → ls 확인 시 package-lock.json 이라는 node_module 확인가능
@@ -95,27 +97,22 @@ node index.js 실행 시 'App is listening 3000 port' 확인가능
 
 
 
+- 서버 접속 확인
+
 이후 터미널을 추가 실행해 ssh -i KeyPair.pem ec2-user@ 복사한 IPv4 퍼블릭IP
 
 curl http://localhost:3000
 
-개인요청 발송 시 Hello World라는 응답 옴
+개인요청 발송 시 Hello World라는 응답 발생
 
 
 
-이전 터미널에 ctrl+c 로 앱을 끄고, vi index.js 를 통해 수정
+> 터미널 내 localhost 3000번 요청과, 퍼블릭IP 에 3000번을 요청하는 것은 같다.
+>
 
-Hello world 다음 \n 입력 후 :wq 시 터미널 반영된것 확인 가능
-
-
-
-터미널 내 localhost 3000번 요청과, 퍼블릭IP 에 3000번을 요청하는 것은 같다.
-
-바로 실행 시 인스턴스가 3000번 포트를 외부에 오픈하지 않았기에 접속불가, 
+바로 실행 시 인스턴스가 3000번 포트를 외부에 오픈하지 않았기에 접속불가,
 
 인스턴스 창 내 보안그룹 Hans SecurityGroup에서 포트 범위 3000 의 인바운드 규칙을 생성
-
-
 
 이후 공용 ip:3000 을 실행 시 hello world 가 나옴
 
